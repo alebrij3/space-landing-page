@@ -1,0 +1,24 @@
+{
+  "name": "space-landing-page",
+  "version": "0.1.0",
+  "description": "Landing page with information about the space",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejvndrox/space-landing-page.git"
+  },
+  "keywords": [
+    "landing-page",
+    "html",
+    "space"
+  ],
+  "author": "Alejandro Jimenez",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/alejvndrox/space-landing-page/issues"
+  },
+  "homepage": "https://github.com/alejvndrox/space-landing-page#readme"
+}
