@@ -1,2 +1,2 @@
-# The Solar System
-Landing Page for the Solar System
+# Reaching for the stars
+A Space Odyssey
