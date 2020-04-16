@@ -1,6 +1,11 @@
+import img from '../assets/img/earth.png';
+
+const earth = img;
+
 const Hero = () => {
     const view = `
-        <h1>The space is ours</h1>
+        <h1>We can understand the universe. That makes us something very special</h1>
+        <img src="${earth}" alt="Earth" />
     `;
     return view;
 }
