@@ -24,6 +24,9 @@ module.exports = {
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
+            options: {
+              publicPath: '/',
+            },
           },
           //'style-loader',
           'css-loader',
@@ -51,6 +54,7 @@ module.exports = {
       filename: './index.html',
     }),
     new MiniCssExtractPlugin({
+      filename: 'assets/styles/[name].css'
     }),
   ],
 };
