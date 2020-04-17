@@ -14,29 +14,6 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(png|jpe?g|gif)$/i,
-        use: [
-          {
-            loader: 'url-loader',
-            options: {
-              limit: 8192,
-              name: 'assets/img/[hash].[ext]',
-            },
-          },
-        ],
-      },
-      /* {
-        test: /\.(png|jpe?g|gif)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: 'assets/img/[hash].[ext]',
-            },
-          },
-        ],
-      }, */
-      {
         test: /\.html$/,
         use: {
           loader: 'html-loader',
@@ -54,6 +31,18 @@ module.exports = {
           'sass-loader',
         ],
       },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 9000,
+              name: 'assets/img/[hash].[ext]',
+            },
+          },
+        ],
+      },
     ],
   },
   plugins: [
@@ -62,7 +51,6 @@ module.exports = {
       filename: './index.html',
     }),
     new MiniCssExtractPlugin({
-      filename: 'assets/styles/[name].css',
     }),
   ],
 };
