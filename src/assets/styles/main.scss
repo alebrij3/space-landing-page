@@ -40,7 +40,7 @@ nav a {
     text-transform: uppercase;
 }
 .hero {
-    background-image: url('https://i.postimg.cc/c46S1hRH/space.png');
+    background-image: url('../img/earth-horizon.jpg');
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,7 +64,7 @@ h1, h2, h3 {
     height: 400px;
     background-color: $color2;
 }
-p.number {
+.number {
     font-size: 3rem;
     margin-bottom: 0;
     + p {
@@ -75,4 +75,19 @@ p.number {
 section {
     border-bottom: 3px solid $color4;
     padding: 20px;
+}
+section.numbers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    p {
+        text-align: center;
+    }
+}
+#mars-photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    img {
+        width: 100%;
+    }
 }

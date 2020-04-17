@@ -3,8 +3,12 @@ const getPhotos = async () => {
     try {
         const response = await fetch(apiURL);
         const data = await response.json();
-        console.log(data);
-        return data;
+        const latestPhotos = [];
+        for (let i = 0; i < 9; i++) {
+            latestPhotos.push(data.latest_photos[i].img_src);
+        }
+        //console.log(latestPhotos);
+        return latestPhotos;
     } catch (e) {
         console.log('There was a fetch error: ' + e);
     }

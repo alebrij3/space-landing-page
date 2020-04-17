@@ -13,26 +13,29 @@ module.exports = {
   },
   module: {
     rules: [
-      /* {
-        test: /\.(png|jpg|gif)$/i,
+      {
+        test: /\.(png|jpe?g|gif)$/i,
         use: [
           {
             loader: 'url-loader',
             options: {
               limit: 8192,
-              fallback: 'file-loader',
+              name: 'assets/img/[hash].[ext]',
             },
           },
         ],
-      }, */
-      {
+      },
+      /* {
         test: /\.(png|jpe?g|gif)$/i,
         use: [
           {
             loader: 'file-loader',
+            options: {
+              name: 'assets/img/[hash].[ext]',
+            },
           },
         ],
-      },
+      }, */
       {
         test: /\.html$/,
         use: {
@@ -40,12 +43,14 @@ module.exports = {
         },
       },
       {
-        test: /\.(s*)css$/,
+        test: /\.(sa|sc|c)ss$/,
         use: [
-          {
+          /* {
             loader: MiniCssExtractPlugin.loader,
-          },
+          }, */
+          'style-loader',
           'css-loader',
+          'resolve-url-loader',
           'sass-loader',
         ],
       },
@@ -57,7 +62,7 @@ module.exports = {
       filename: './index.html',
     }),
     new MiniCssExtractPlugin({
-      filename: 'assets/[name].css',
+      filename: 'assets/styles/[name].css',
     }),
   ],
 };
