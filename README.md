@@ -3,11 +3,11 @@ This is my second landing page, you can check the first one here: [watercolor la
 
 ## Technologies used
 <div align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="auto" height="200px" alt="html5 logo" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg" width="auto" height="200px" alt="css3 logo" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" width="auto" height="200px" alt="sass logo" />
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="auto" height="200px" alt="javascript logo" />
-<img src="https://travis-ci.com/images/logos/TravisCI-Mascot-1.png" width="auto" height="200px" alt="javascript logo" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="auto" height="150px" alt="html5 logo" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg" width="auto" height="150px" alt="css3 logo" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" width="auto" height="150px" alt="sass logo" />
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="auto" height="150px" alt="javascript logo" />
+<img src="https://travis-ci.com/images/logos/TravisCI-Mascot-1.png" width="auto" height="150px" alt="javascript logo" />
 </div>
 
 ### Webpack
