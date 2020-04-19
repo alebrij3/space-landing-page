@@ -7,6 +7,7 @@ This is my second landing page, you can check the first one here: [watercolor la
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/CSS.3.svg" width="130" height="auto" alt="css3 logo" />
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg" width="200" height="auto" alt="sass logo" />
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" width="200" height="auto" alt="javascript logo" />
+<img src="https://travis-ci.com/images/logos/TravisCI-Mascot-1.png" width="200" height="auto" alt="javascript logo" />
 </div>
 
 ### Webpack
