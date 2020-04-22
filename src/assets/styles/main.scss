@@ -33,11 +33,14 @@ nav {
 nav a {
     text-decoration: none;
     color: $color3;
-    font-weight: 400;
+    font-weight: 700;
     padding: 10px 25px;
     font-size: 18px;
     letter-spacing: 3px;
     text-transform: uppercase;
+}
+.text-center {
+    text-align: center;
 }
 .hero {
     background-image: url('../img/earth-horizon.jpg');
@@ -91,5 +94,15 @@ section.numbers {
     grid-gap: 10px;
     img {
         width: 100%;
+    }
+}
+@media screen and (min-width: 700px) {
+    #mars-photos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+        img {
+            width: 100%;
+        }
     }
 }

@@ -4,7 +4,7 @@ const getPhotos = async () => {
         const response = await fetch(apiURL);
         const data = await response.json();
         const latestPhotos = [];
-        for (let i = 0; i < 9; i++) {
+        for (let i = 0; i < 5; i++) {
             latestPhotos.push(data.latest_photos[i].img_src);
         }
         //console.log(latestPhotos);
