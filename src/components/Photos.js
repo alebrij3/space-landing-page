@@ -7,7 +7,7 @@ const Photos = async () => {
         photos.map(
             photo => `<img src="${photo}" alt"Mars Photo" />`
         ).join('');
-    marsPhotosSection.insertAdjacentHTML('beforeend', view);
+    marsPhotosSection.innerHTML = view;
     return view;
 }
 

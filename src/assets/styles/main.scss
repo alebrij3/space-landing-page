@@ -93,6 +93,9 @@ section.numbers {
 #mars-photos {
     display: flex;
     overflow-x: scroll;
+    p {
+        width: 100%;
+    }
     img {
         min-width: 200px;
         height: auto;
