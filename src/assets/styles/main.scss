@@ -91,11 +91,12 @@ section.numbers {
     }
 }
 #mars-photos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    display: flex;
+    overflow-x: scroll;
     img {
-        width: 100%;
+        min-width: 200px;
+        height: auto;
+        margin-right: 20px;
     }
 }
 footer {
@@ -105,7 +106,7 @@ footer {
         color: $color1;
     }
 }
-@media screen and (min-width: 700px) {
+/* @media screen and (min-width: 700px) {
     #mars-photos {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -114,4 +115,4 @@ footer {
             width: 100%;
         }
     }
-}
+} */
