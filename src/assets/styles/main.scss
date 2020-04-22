@@ -78,8 +78,10 @@ h1, h2, h3 {
     }
 }
 section {
-    border-bottom: 3px solid $color4;
     padding: 20px;
+    h2 {
+        margin-top: 20px;
+    }
 }
 section.numbers {
     display: grid;
@@ -94,6 +96,13 @@ section.numbers {
     grid-gap: 10px;
     img {
         width: 100%;
+    }
+}
+footer {
+    background-color: $color5;
+    padding: 20px;
+    a {
+        color: $color1;
     }
 }
 @media screen and (min-width: 700px) {
