@@ -1,10 +1,10 @@
 import getPhotos from '../utils/getPhotos';
 
 const Photos = async () => {
-    const photos = await getPhotos();
+    const latestPhotos = await getPhotos();
     const marsPhotosSection = document.getElementById('mars-photos');
     const view = 
-        photos.map(
+        latestPhotos.map(
             photo => `<img src="${photo}" alt"Mars Photo" />`
         ).join('');
     marsPhotosSection.innerHTML = view;
