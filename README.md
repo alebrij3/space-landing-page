@@ -38,4 +38,4 @@ npm install
 ```
 
 ## Licence
-GNU
+GNU General Public License v3.0
